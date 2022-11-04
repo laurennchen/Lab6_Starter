@@ -47,7 +47,6 @@ function addRecipesToDocument(recipes) {
   //            each <recipe-card> with that recipe data using element.data = ...
   //            Append each element to <main>
   for (let i = 0; i < recipes.length; i++) {
-    console.log(recipes[i]['imgAlt']);
     let recipeCard = document.createElement('recipe-card');
     var imgAlta = recipes[i]['imgAlt'];
     recipeCard.data = { 
