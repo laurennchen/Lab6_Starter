@@ -114,10 +114,7 @@ function initFormHandler() {
     main.append(newRecipeCard);
 
     let recipeArray = getRecipesFromStorage();
-    console.log(recipeArray);
-    console.log(newRecipeCard);
     recipeArray.push(recipeObject);
-    console.log(recipeArray);
     saveRecipesToStorage(recipeArray);
   })
   
